@@ -25,14 +25,14 @@ function criarBG(){
 
 function criarCobra(){
     for( i=0; i< snake.length; i++){
-        context.fillStyle = "green";
+        context.fillStyle = "aquamarine";
         context.fillRect(snake[i].x, snake[i].y, box, box);
     }
 
 }
 
 function drawFood(){
-    context.fillStyle = "red"
+    context.fillStyle = "pink"
     context.fillRect(food.x, food.y, box, box);
 }
 // gets the click on the keyboard
